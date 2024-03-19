@@ -10,4 +10,4 @@ Projeto de Calculadora simples com JS
 open source 👍
 <br>
 <br>
-Da uma olhada: 
+Da uma olhada: https://henrygabriell.github.io/Calculadora/
