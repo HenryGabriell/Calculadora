@@ -5,8 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://googleapis.com">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="calculadora">
+            <div class="result">
+                <div class="history">
+                    <p id="valordesaida"></p>
+                </div>
+            </div>
+            <div class="keyboard">
+                <!-- Primeira linha de botoes -->
+                <button class="operador" id="limpar">C</button>
+                <button class="operador" id="espaço">CE</button>
+                <button class="operador" id="%">%</button>
+                <button class="operador" id="/">&#247;</button>
+                <!-- Segunda linha de botoes -->
+                <button class="numero" id="7">7</button>
+                <button class="numero" id="8">8</button>
+                <button class="numero" id="9">9</button>
+                <button class="operador" id="*">&times;</button>
+                <!-- Terceira linha de botoes -->
+                <button class="numero" id="4">4</button>
+                <button class="numero" id="5">5</button>
+                <button class="numero" id="6">6</button>
+                <button class="operador" id="-">-</button>
+                <!-- Quarta linha de botoes -->
+                <button class="numero" id="1">1</button>
+                <button class="numero" id="2">2</button>
+                <button class="numero" id="3">3</button>
+                <button class="operador" id="+">+</button>
+                <!-- Quinta linha de botoes -->
+                <button class="vazio" id="vazio"></button>
+                <button class="numero" id="0">0</button>
+                <button class="vazio" id="vazio"></button>
+                <button class="operador" id="=">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
