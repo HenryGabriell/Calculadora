@@ -4,7 +4,8 @@ Projeto de Calculadora simples com JS
 <br>
 <br>
 <br>
-<img align="center" height="260" width="500" src="https://github.com/HenryGabriell/Calculadora/assets/96191361/e29318b5-c819-47f7-8c43-fd111d14f3a8">
+<img align="center" height="260" width="500" src="https://github.com/HenryGabriell/Calculadora/assets/96191361/eb7d69c4-29da-496c-84a6-01e85b2b64a9">
+
 
 <hr>
 open source 👍
