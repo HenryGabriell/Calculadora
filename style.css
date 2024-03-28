@@ -15,7 +15,6 @@ body{
     background-color: #eaedef;
     margin: 0 auto;
     top: 20px;
-    position: relative;
     border-radius: 1rem;
     box-shadow: 0 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -104,14 +103,12 @@ body{
         margin: auto ;
         overflow: hidden;
         top: 0;
-        background-color: brown;
+        background-color: rgb(42, 165, 65);
     }
     .container{
-        width: 100%;
-        /* margin: 0;
-        padding: 0; */
-        margin: 0px auto;
-        align-items: center;
+        width: 100vh;
+        display: flex;
         justify-content: center;
+        align-items: center;
     }
 }
