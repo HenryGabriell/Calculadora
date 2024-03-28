@@ -96,3 +96,19 @@ body{
     font-size: 20px;
     background-color: rgb(160, 178, 238);
 }
+
+/*responsividade*/
+@media only screen and (max-width: 700px) {
+    .calculadora {
+        
+        margin: auto ;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        width: 100%;
+        margin: 0 auto  ;
+        top: 0;
+    }
+}
