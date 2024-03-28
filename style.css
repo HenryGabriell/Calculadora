@@ -1,6 +1,6 @@
 body{
     font-family: 'Popins', sans-serif;
-    background-color: rgb(140, 82, 255);
+    background-color:     rgba(253, 186, 0, 0.592);
 }
 
 .container{
@@ -77,24 +77,24 @@ body{
 
 .operador:nth-child(4){
     font-size: 20px;
-    background-color: rgb(160, 178, 238);
+    background-color: rgb(255, 188, 2);
 }
 
 .operador:nth-child(8){
     font-size: 20px;
-    background-color: rgb(160, 178, 238);
+    background-color: rgb(255, 188, 2);
 }
 .operador:nth-child(12){
     font-size: 20px;
-    background-color: rgb(160, 178, 238);
+    background-color: rgb(255, 188, 2);
 }
 .operador:nth-child(16){
     font-size: 20px;
-    background-color: rgb(160, 178, 238);
+    background-color: rgb(255, 188, 2);
 }
 .operador:nth-child(20){
     font-size: 20px;
-    background-color: rgb(160, 178, 238);
+    background-color: rgb(255, 188, 2);
 }
 
 /*responsividade*/
