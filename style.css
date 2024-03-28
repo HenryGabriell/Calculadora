@@ -104,6 +104,7 @@ body{
         margin: auto ;
         overflow: hidden;
         top: 0;
+        background-color: brown;
     }
     .container{
         width: 100%;
