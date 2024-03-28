@@ -4,17 +4,18 @@ body{
 }
 
 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     
-    height: 550px;
-    margin: 20px auto;
 }
 
 .calculadora{
     width: 320px;
     height: 520px;
     background-color: #eaedef;
-    margin: 0 auto;
-    top: 20px;
+
     border-radius: 1rem;
     box-shadow: 0 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -97,18 +98,4 @@ body{
 }
 
 /*responsividade*/
-@media screen and (max-width: 810px) {
-    .calculadora {
-        height: 100%;
-        margin: auto ;
-        overflow: hidden;
-        top: 0;
-        background-color: rgb(42, 165, 65);
-    }
-    .container{
-        width: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
+
